@@ -104,6 +104,10 @@ nav ul li a{
     color: #ffffff;
     text-shadow: 0.3px 0 0 currentColor;
 }
+.item.itemactive:hover{
+    color: #ffffff;
+    
+}
 .item:hover{
     color: #616161;
 }
