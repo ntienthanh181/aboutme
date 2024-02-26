@@ -96,6 +96,8 @@
         font-family: futura;
         display: -webkit-box;
         padding: 8px 32px 8px 32px;
+        letter-spacing: 0.9px;
+
     }
     .item.itemactive{
         color: #616161;
@@ -134,7 +136,7 @@
      }
      .connectwithwe{
         position: relative;
-        top: 15px;
+        top: 18px;
      }
 }
 /* Tablet */
