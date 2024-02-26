@@ -36,8 +36,13 @@ body{
     background: black;
     color: #fff;
     overflow-x: hidden;
+    
 
 }
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar:horizontal{}
 
 /* header css here */
 .header{
