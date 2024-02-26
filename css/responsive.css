@@ -136,11 +136,11 @@
      }
      .connectwithwe{
         position: relative;
-        top: 17px;
+        top: 10px;
      }
      .fb{
         position: relative;
-        top: 9px;
+        top: 0px;
         font-size: 16px;
         font-family: montserrat,sans-serif;
         text-decoration: none;
@@ -150,7 +150,7 @@
     }
     .ins{
         position: relative;
-        top: 10px;
+        top: 5px;
         font-size: 16px;
         font-family: montserrat,sans-serif;
         text-decoration: none;
@@ -159,8 +159,12 @@
     
     }
     .mail{
-        top: 0px;
+        top: 5px;
     }
+    .box3{
+        top: 1000px;
+    }
+
 
 }
 /* Tablet */
