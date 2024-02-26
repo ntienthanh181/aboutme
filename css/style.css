@@ -538,24 +538,27 @@ form input, form textarea{
     font-family: montserrat,sans-serif;
     text-decoration: none;
     color: #fff;
+    left: 0px;
 }
 .fb{
     position: relative;
-    top: 12px;
+    top: 9px;
     font-size: 16px;
     font-family: montserrat,sans-serif;
     text-decoration: none;
-    font-style: none;
     color: #fff;
+    left: 47px;
+
 }
 .ins{
     position: relative;
-    top: 8px;
+    top: 0px;
     font-size: 16px;
     font-family: montserrat,sans-serif;
     text-decoration: none;
-    font-style: none;
     color: #fff;
+    left: 46px;
+
 }
 .copyright{
     position: relative;
@@ -568,6 +571,7 @@ form input, form textarea{
     letter-spacing: 1px;
     font-size: 20px;
     font-family: futura,sans-serif;
+
 }
 .contactwithme{
     letter-spacing: 1px;

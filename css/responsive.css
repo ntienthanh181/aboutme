@@ -136,8 +136,29 @@
      }
      .connectwithwe{
         position: relative;
-        top: 18px;
+        top: 17px;
      }
+     .fb{
+        position: relative;
+        top: 9px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 0px;
+    
+    }
+    .ins{
+        position: relative;
+        top: 10px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 0px;
+    
+    }
+
 }
 /* Tablet */
 @media (min-width: 768px) and (max-width:991.8px){
