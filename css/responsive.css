@@ -68,13 +68,13 @@
     }
 /* menu checkbox  */
     .menu-checkbox:checked ~ .menu-overlay {
-        opacity: 1;
+        opacity: 0;
         visibility: visible;
     }
 /* menu drawer  */
     .menu-drawer{
         position: fixed;
-        background: #313131;
+        background: #282828;
         inset: 0 40% 0 0;
         z-index: 2;
         transform: translateX(-100%);
@@ -92,6 +92,29 @@
     .item.itemnonactive , .item.itemactive {
         text-decoration: none;
         color: white;
+        font-size: 18px;
+        font-family: futura;
+        display: -webkit-box;
+        padding: 8px 32px 8px 32px;
+    }
+    .item.itemactive{
+        color: #616161;
+        text-shadow: 0.3px 0 0 currentColor;
+    }
+    .item.itemactive:hover{
+        color: #616161;
+        
+    }
+    .close__menu{
+        width: 22px;
+        color: #878787;
+    }
+    .menu-drawer{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 290px;
+        height: 100%;
+        padding: 7px 9px;
     }
 /* footer  */
     .footercontainer{
