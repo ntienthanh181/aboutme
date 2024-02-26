@@ -34,8 +34,9 @@ html{
 }
 body{
     background: black;
-    color: #fff
-    
+    color: #fff;
+    overflow-x: hidden;
+
 }
 .body{
     /* min-width: 100%; */
