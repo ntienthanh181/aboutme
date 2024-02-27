@@ -50,11 +50,9 @@
 /* menuresponsive */
 .menuresponsive{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 300px;
     color: #fff;
     top: 30px;
-    left: 15px;
     width: 35px;
     height: 35px;
     }
@@ -64,6 +62,7 @@
     background: rgb(81, 81, 81,0.3);
     inset: 0;
     z-index: 1;
+    visibility: visible;
 /* hidden overlay  */
     opacity: 0;
     visibility: hidden;
@@ -89,7 +88,7 @@
 /* ulli  */
     .menutab{
         position: absolute;
-        top: 5%;
+        top: 50%;
         left: 10%;
     }
     .item.itemnonactive , .item.itemactive {
@@ -97,9 +96,14 @@
         color: white;
         font-size: 18px;
         font-family: futura;
-        display: -webkit-box;
+        display: inline-block;
         padding: 8px 32px 8px 32px;
         letter-spacing: 0.9px;
+        width: 430px;
+    }
+    .dcm{
+        display: block;
+        width: 100px;
 
     }
     .item.itemactive{
