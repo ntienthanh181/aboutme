@@ -231,10 +231,13 @@
         width: 100%;
     }
     .logoenter{
-        width: 250px;
+        width: 280px;
     }
     .ent{
         font-size: 20px;
+    }
+    .open{
+        margin-bottom: 30px;
     }
 
 }

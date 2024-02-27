@@ -52,7 +52,7 @@ body{
     align-items: center;
     justify-content: center;
     animation: open 5s;
-
+    top: 0;
 }
 .logoenter{
     height: auto;
