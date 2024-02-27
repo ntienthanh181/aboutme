@@ -126,7 +126,7 @@
                         <P class="text">For work enquiries please contact <a href="mailto: ntienthanh181@gmail.com" class="text">ntienthanh@181.com</a> or fill out the form below:</P>
                     </div>
                     <br>
-                    <form name="submit-to-google-sheet" class="form">
+                    <form name="submit-to-google-sheet" class="form" name="submit-to-google-sheet">
                         <div class="form__box1">
                             <div class="form__box1--1">
                                 <label for="form" class="text2">Name<span class="required">*</span></label>
@@ -135,7 +135,7 @@
                             <div class="form__box1--2"></div>
                             <div class="form__box1--3"> 
                                 <label class="text2" for="form">Email<span class="required">*</span></label>
-                                <input class="text2" type="email" name="email" placeholder="Your Email" required>
+                                <input class="text2" type="email" name="Email" placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="form__box2">
@@ -147,13 +147,14 @@
                             <textarea class="text2" name="Message" rows="7" placeholder="Your Message"></textarea>
                         </div>
                         <div>
-                            <button class="btn" type="submit">
+                            <button type="submit" class="btn" type="submit">
                                 <span>
                                     SEND
                                 </span>
                             </button>
                         </div>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -183,24 +184,26 @@
                 </div>
             </div>
         </footer>
-<!-- footer end here -->
-        <!-- <script src="app.js" defer></script> -->
     </div>
-    <form name="submit-to-google-sheet">
-        <input name="email" type="email" placeholder="Email" required>
-        <button type="submit">Send</button>
-      </form>
-      
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyNUJYkDPjuoEx47cdakj2zFTt08qtJQRd5XT68G7iePXf6fdOzGAMu8SgGkt1IpjeC/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+<!-- footer end here -->
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxIogMO6Lbj9fhCqiAF-_kaSM4SfEh69HW5s4lQLPhcvm15t9G_MM9x0jzsimkN4EfT/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById('msg')
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Thank You For Your Message!"
+        setTimeout(function() {
+            msg,innerHTML = ""
+        }, 50000)
+        form.reset()
+
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
 </body>
 </html>
