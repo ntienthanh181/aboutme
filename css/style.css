@@ -56,6 +56,8 @@ body{
 }
 .logoenter{
     width: 500px;
+    max-width: 100%;
+    max-height: 100%;
 }
 @keyframes open{
     0%{ opacity: 0;}
@@ -68,9 +70,10 @@ body{
 .ent{
     color: #fff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 17px;
     font-family: futura;
 }
+
 /* header css here */
 .header{
     width: 100%;
