@@ -230,4 +230,11 @@
     .box3 , .box2 , .box1{
         width: 100%;
     }
+    .logoenter{
+        width: 250px;
+    }
+    .ent{
+        font-size: 20px;
+    }
+
 }
