@@ -44,6 +44,33 @@ body{
 }
 ::-webkit-scrollbar:horizontal{}
 
+.open{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: open 5s;
+
+}
+.logoenter{
+    width: 500px;
+}
+@keyframes open{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+.space{
+    width: 100%;
+    height: 25px;
+}
+.ent{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: futura;
+}
 /* header css here */
 .header{
     width: 100%;

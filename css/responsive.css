@@ -224,4 +224,10 @@
     .buttoncoverfirst{
         display: none;
     }
+    .footercontainer{
+        align-items: center;
+    }
+    .box3 , .box2 , .box1{
+        width: 100%;
+    }
 }
