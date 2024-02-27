@@ -40,6 +40,9 @@
         position: absolute;
         right: 5%;
     }
+    .socialmediatab{
+        display: none;
+    }
     .logocontainer{
         width: 300px;
         height: 45.63px;
@@ -87,7 +90,7 @@
     .menutab{
         position: absolute;
         top: 5%;
-        left: 20%;
+        left: 10%;
     }
     .item.itemnonactive , .item.itemactive {
         text-decoration: none;
@@ -114,7 +117,7 @@
     .menu-drawer{
         display: flex;
         flex-direction: row-reverse;
-        width: 290px;
+        width: 200px;
         height: 100%;
         padding: 7px 9px;
     }
@@ -170,6 +173,16 @@
 }
 
 /* Mobile */
-@media (max-width: 767.98px){
-
+@media (max-width:550px){
+    .socialmedia{
+        display: none;
+    }
+    .socialmediatab{
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 2px 7px;
+        
+    }
 }
