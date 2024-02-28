@@ -457,6 +457,9 @@ body{
 .form{
     margin-top: 20px;
 }
+.hidden_iframe{
+    display: block;
+}
 .required{
     color: rgb(255, 84, 84);
 }
