@@ -3,6 +3,9 @@
     .mobiletabletheader{
         display: none;
     }
+    .anh , .gallerycontainer{
+        display: none;
+    }
 }
 
 /* Tablet & Mobile  */
@@ -29,6 +32,12 @@
         display: none;
     }
     .menutabcoverout{
+        display: none;
+    }
+    .sildercover{
+        display: none;
+    }
+    .silder{
         display: none;
     }
 /* header adjust  */
@@ -59,36 +68,60 @@
     width: 35px;
     height: 35px;
     }
-/* mnu overlay */
-.menu-overlay{
+    /* mnu overlay */
+    .menu-overlay{
     position: fixed;
     background: rgb(81, 81, 81,0.3);
     inset: 0;
     z-index: 1;
     visibility: visible;
-/* hidden overlay  */
+    /* hidden overlay  */
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;       
-}
-/* menu checkbox  */
-.menu-checkbox:checked ~ .menu-overlay {
+    }
+    /* menu checkbox  */
+    .menu-checkbox:checked ~ .menu-overlay {
     opacity: 1;
     visibility: visible;
-}
-/* menu drawer  */
-.menu-drawer{
+    }
+    /* menu drawer  */
+    .menu-drawer{
     position: fixed;
     background: #313131;
     inset: 0 40% 0 0;
     z-index: 2;
     transform: translateX(-100%);
     transition: 0.5s;
-}
-.menu-checkbox:checked ~ .menu-drawer{
-    transform: translateX(0);
-}
-/* ulli  */
+    }
+    .menu-checkbox:checked ~ .menu-drawer{
+        transform: translateX(0);
+    }
+    /* anh */
+    .gallerycontainerhome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 20px 0 20px;
+    }
+    .gallerycontainerhome .containerboxhome { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    .gallerycontainerhome .containerboxhome .anhhome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gallerycontainerhome .containerboxhome .anhhome img{
+        width: 100%;
+        padding-bottom: 15px;
+        border-radius: 5px;
+    }
+    /* ulli  */
     .menutab{
         position: absolute;
         top: 58px;
