@@ -156,6 +156,34 @@
     .menutab2 , .hr{
         display: none;
     }
+    /* footer */
+    .connectwithwe , .contactwithme{
+        top: 0px;
+        top: 10px;
+     }
+     .fb{
+        position: relative;
+        top: -2px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 0px;
+    
+    }
+    .ins{
+        position: relative;
+        top: 6px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 1.2px;
+    
+    }
+    .mail{
+        top: 5px;
+    }
 }
 
 /* Mobile */
