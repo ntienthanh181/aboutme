@@ -9,7 +9,7 @@
 }
 /* heigh ,fix footer */
 /* PC */
-@media (max-height: 790px){
+/* @media (max-height: 790px){
     .footercontainer{
         bottom: 0;
     }
@@ -26,9 +26,9 @@
         padding-bottom: 50px;
         height: calc(100% + 200px);
     }
-}
+} */
 /* smaller than 1024 px */
-@media (min-width: 992px) and (max-width: 1219px){
+@media (min-width: 992px) and (max-width: 1219px) and (max-height: 790px){
     .mobiletabletheader{
         display: none;
     }
@@ -48,6 +48,22 @@
     .spaceadjust {
         justify-content: center;
         min-width: 866px;
+    }
+    .footercontainer{
+        bottom: 0;
+    }
+    .footer{
+        margin-top: unset;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+      }
+    .sildercover {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        height: calc(100% + 200px);
     }
 
 
