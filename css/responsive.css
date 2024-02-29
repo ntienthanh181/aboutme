@@ -86,6 +86,13 @@
     .silder{
         display: none;
     }
+    .contact-tab__box2 {
+        display: none;
+        width: 200px;
+    }
+    .contact-tab__cover{
+        flex-direction: column;
+    }
     /* header adjust  */
     .header{
         position: relative;
