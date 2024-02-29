@@ -99,7 +99,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 40px 10px 0 10px;
+        margin: 10px 10px 0 10px;
     }
     .gallerycontainerhome .containerboxhome { 
         display: flex;
@@ -221,7 +221,7 @@
     .menuresponsive{
     position: absolute;
     color: #fff;
-    top: 34px;
+    top: 33px;
     left: 20px;
     width: 35px;
     height: 35px;
@@ -303,6 +303,7 @@
     }
     .img{
         width: 200px;
+        display: none;
     }
     .sildercover{
         padding-top: 30px;
