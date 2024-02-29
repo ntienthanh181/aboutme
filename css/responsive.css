@@ -12,6 +12,7 @@
 @media (max-width: 991.8px) {
     html{
         max-width: 100%;
+        max-height: 100%;
     }
     body{
         overflow-x: hidden;
@@ -223,7 +224,12 @@
 
 /* Mobile */
 @media (max-width:550px){
-
+    body{
+        max-width: 100%;
+    }
+    .logocontainer{
+        width: 100%;
+    }
     .socialmedia{
         display: none;
     }
@@ -328,7 +334,7 @@
     .box2 , .box3 , .box1{
         flex-direction: column;
         display: flex;
-        width: 450px;
+        max-width: 450px;
         height: 100px;
         align-items: center;
      }
