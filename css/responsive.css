@@ -63,11 +63,11 @@
     /* menuresponsive */
     .menuresponsive{
     position: absolute;
-    top: 300px;
     color: #fff;
-    top: 30px;
-    width: 35px;
-    height: 35px;
+    top: 35px;
+    right: 0;
+    width: 25px;
+    height: 25px;
     }
     /* mnu overlay */
     .menu-overlay{
@@ -120,6 +120,8 @@
     .gallerycontainerhome .containerboxhome .anhhome img{
         width: 100%;
         padding-bottom: 15px;
+        border: none;
+        border-radius: 0;
     }
     /* ulli  */
     .menutab{
@@ -229,6 +231,11 @@
     }
     .logocontainer{
         width: 100%;
+    }
+    .logocontainer .logo{
+        width: 80%;
+        position: absolute;
+        left: 0;
     }
     .socialmedia{
         display: none;
