@@ -234,7 +234,7 @@ body{
     font-size: 35px;
     margin: auto;
     min-width: 50px;
-    left: 1.3%;
+    left: 0.5%;
 }
 .buttons button{
     width: 0px;
@@ -247,7 +247,7 @@ body{
     font-size: larger;
 }
 .morespace{
-    width: 50%;
+    width: 45%;
 }
 .buttons.left{
     width: 26.25px;
