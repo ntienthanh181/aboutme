@@ -1,0 +1,76 @@
+/* smaller than 1024 px */
+@media (min-width: 792px) and (max-width: 1519px){
+    .contact-tab__box2{
+        width: 10%;
+        max-width: 100%;
+        min-width: 0;
+    }
+    .contact-tab__box3, form {
+        width: 400px;
+    }
+    .contact-tab__box1--photo--resize {
+        width: 250px;
+    }
+    .text1 {
+        font-family: montserratthin1;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .contact-tab__box1--connect {
+        margin-top: 20px;
+    }
+    .contact-tab__cover {
+        padding:20px 0px 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-tab {
+        height: 950px;
+        padding-bottom: 50px;
+    }
+    
+}
+/* Tablet & Mobile  */
+@media (max-width: 991.8px) {
+    .contact-tab__box2 {
+        display: none;
+        width: 200px;
+    }
+    .contact-tab__cover{
+        flex-direction: column;
+    }
+   .contact-tab__box1--photo--resize {
+        width: 100%;
+        max-width: 100%;
+    }
+    .footercontainer{
+        top: 1500px;
+    }
+    .contact-tab__box1--connect{
+        display: none;
+    }
+    .contact-tab__box1--icons{
+        display: none;
+    }
+    .contact-tab__box3, form{
+        width: 100%;
+    }
+    .dwn {
+        display: none;
+    }
+    .contact-tab__box3{
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    form input, form textarea , .form__box3 {
+        width: 100%;
+    }
+    .text1{
+        display: none;
+    }
+    .form__box1--3 {
+        width: 50%;
+    }
+
+}
