@@ -492,16 +492,5 @@
         min-height: min-content;
         margin-top: auto;
     }
-    /* .slider{
-        overflow: visible;
-    }
-    .slider .list{
-
-        display: contents;
-
-    }
-    .slider .list img{
-        object-fit: cover;
-    } */
-
+    
 }
