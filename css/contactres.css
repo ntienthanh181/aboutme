@@ -31,6 +31,19 @@
 }
 /* Tablet & Mobile  */
 @media (max-width: 991.8px) {
+    html {
+        height: 100%;
+    }
+    .footer {
+        margin-top: 100%;
+        position: relative;
+    }
+    .copyright {
+        padding-left: 0;
+    }
+    .contact-tab{
+        padding-bottom: 1000px;
+    }
     .contact-tab__box2 {
         display: none;
         width: 20%;
