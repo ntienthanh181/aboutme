@@ -450,9 +450,10 @@ body{
     word-spacing: 2px;
 }
 .text{
+    font-size: 16px;
     color: white;
     font-family: montserrat;
-    font-weight: bolder;
+    font-weight: lighter;
 }
 .text3{
     color: white;
