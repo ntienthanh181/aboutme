@@ -104,14 +104,14 @@
         justify-content: center;
     }
     .btn{
-        height: 55px;
-        font-size: 20px;
+        height: 45px;
+        font-size: 16px;
         width: 100%;
 
 
     }
     .btn:hover{
-        height: 65px;
+        height: 50px;
     }
     .dwn {
         display: none;
@@ -132,7 +132,7 @@
     }
     .aboutme strong pr, .text{
         font-size: 16px;
-        line-height: 25px;
+        line-height: 1.5;
     }
     .form__box1 {
         display: flex;
