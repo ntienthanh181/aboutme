@@ -149,7 +149,8 @@
     .aboutme strong pr, .text{
         font-size: 16px;
         line-height: 1.5;
-        font-weight: lighter;
+        font-weight: lighter 1;
+        /* font-weight: bold; */
     }
     .form__box1 {
         display: flex;

@@ -419,7 +419,7 @@ body{
 .contact-tab__box3{
     padding: 10px;
 }
-.aboutme strong pr,.text{
+.aboutme strong pr{
     font-family: montserratthin;
     font-size: 18px;
     letter-spacing: 0px;
@@ -452,6 +452,15 @@ body{
 .text{
     color: white;
     font-family: montserrat;
+    font-weight: bolder;
+}
+.text3{
+    color: white;
+    font-family: montserratthin;
+    font-weight: lighter;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    line-height: 1.5;
 }
 .form{
     margin-top: 20px;
