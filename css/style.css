@@ -421,11 +421,8 @@ body{
 }
 .aboutme strong pr{
     font-family: montserratthin;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0px;
-    column-gap: 10px;
-    line-height: 28px;
-    
 }
 .text1{
     font-family: montserratthin1;
@@ -452,7 +449,10 @@ body{
 .text{
     font-size: 16px;
     color: white;
-    font-family: montserrat;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 0
+    font-family: montserratthin;
     font-weight: lighter;
 }
 .text3{
