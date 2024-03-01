@@ -6,6 +6,9 @@
     .anhhome , .gallerycontainerhome{
         display: none;
     }
+    .contact-tab__box1--clienthehe{
+        display: none;
+    }
 }
 /* heigh ,fix footer */
 
@@ -22,6 +25,9 @@
 /* smaller than 1024 px */
 @media (min-width: 992px) and (max-width: 1219px) {
     .mobiletabletheader{
+        display: none;
+    }
+    .contact-tab__box1--clienthehe{
         display: none;
     }
     .mobiletabletheader{
