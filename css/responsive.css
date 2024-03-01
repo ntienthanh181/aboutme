@@ -314,14 +314,14 @@
     .menuresponsive{
     position: absolute;
     color: #fff;
-    top: 20px;
+    top: 29px;
     right: 15px;
     width: 25px;
     height: 25px;
     }
     .container{
         height: fit-content;
-        padding:  0px;
+        padding:  10px;
     }
     nav {
         box-sizing: unset;
