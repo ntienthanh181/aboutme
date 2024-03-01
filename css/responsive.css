@@ -314,7 +314,7 @@
     .menuresponsive{
     position: absolute;
     color: #fff;
-    top: 12px;
+    top: 20px;
     right: 15px;
     width: 25px;
     height: 25px;
@@ -330,7 +330,7 @@
         flex-wrap: unset;
     }
     .custom{
-        padding: 10px 0;
+        padding: 15px 0;
     }
     .logo{
         width: 100%;
@@ -483,6 +483,11 @@
     }
     .left_side .ftlogo{
         width: 250px;
+    }
+    .lopngoai , .custom {
+        height: 100%;
+        max-height: 100%;
+        min-height: min-content;
     }
     /* .slider{
         overflow: visible;
