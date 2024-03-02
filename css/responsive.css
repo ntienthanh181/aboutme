@@ -85,6 +85,13 @@
     .morespace{
         display: none;
     }
+    .gallerycontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px 0 20px;
+    }
 /* hide tab  */
     .tab{
         display: none;
@@ -492,5 +499,6 @@
         min-height: min-content;
         margin-top: auto;
     }
+
     
 }
