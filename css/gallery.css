@@ -7,21 +7,22 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 20px 0 20px;
+    /* margin: 40px 20px 0 20px; */
 }
 .gallerycontainer .containerbox { 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     /* align-items: center; */
 }
 .gallerycontainer .containerbox .anh{
     display: flex;
     flex-direction: column;
-    width: 32.2%;
+    /* width: 32.2%; */
+    max-width: 500px;
 }
 .gallerycontainer .containerbox .anh img{
     width: 100%;
-    padding-bottom: 15px;
+    padding: 8px;
     border-radius: 5px;
 }
