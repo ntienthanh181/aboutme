@@ -19,10 +19,24 @@ body{
     display: flex;
     flex-direction: column;
     /* width: 32.2%; */
-    max-width: 500px;
+    max-width: 600px;
 }
 .gallerycontainer .containerbox .anh img{
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
+}
+.textforsv{
+    margin: 0px 10px 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Futura ;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
