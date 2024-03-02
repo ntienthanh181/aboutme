@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins/Poppins-BlackItalic.ttf);
+}
+@font-face {
+    font-family: futura;
+    src: url(../font/futura/FuturaCyrillicDemi.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../font/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: montserratthin;
+    src: url(../font/montserrat/static/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: montserratthin1;
+    src: url(../font/montserrat/static/Montserrat-LightItalic.ttf);
+}
+@font-face {
+    font-family: montserratthin3;
+    src: url(../font/montserrat/static/Montserrat-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: black;
+    color: #fff;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    height: 100px;
+    padding: 20px 0px;
+}
+nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 300px;
+    margin: 0;
+}
+.logocontainer{
+    width: 650px;
+    height: 53.22px;
+}
+.custom{
+    padding: 10px;
+}
+.menutabcoverout{
+    height: 73.22px;
+}
+.menutab{
+    width: 450px;
+    height: 53.22px;
+}
+.tab{
+    width: 450px;
+    height: 73.22px;
+    padding: 10px;
+}
+.tab li a{
+    padding: 10px 20px;
+    left: 70px;;
+}
+nav ul {
+    font-family: futura;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0px;
+
+
+}
+nav ul li a{
+    top: 4px;
+    color: #d0d0d0;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    letter-spacing: 0.9px;
+
+}
+.item.itemactive{
+    color: #ffffff;
+    text-shadow: 0.3px 0 0 currentColor;
+}
+.item.itemactive:hover{
+    color: #ffffff;
+    
+}
+.item:hover{
+    color: #616161;
+}
+.socialmedia{
+    width: 100px;
+    height: 73.21px;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+.socialmediabelow{
+    display: flex;
+}
+.inscover{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.fbcover{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-brands{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.fa-brands fa-instagram{
+    font-size: 25px;
+}
+.image img{
+    padding: 20px 170px;
+    width: 1300px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+
+/* footer */
+.gallerycontainer{
+    padding-bottom: 200px;
+}
+.body{
+    min-height: 100%;
+}
+.footer{
+    margin-top: auto;
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
+.footercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.footercontainercase{
+}
+.left_side .ftlogo{
+    position: relative;
+    top: 4px;
+    pointer-events: none;
+    width: 300px;
+}
+.box1{
+    padding: 10px;
+    height: 100px;
+    width: 450px;
+}
+.box2{
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+}
+.box3{
+    padding: 10px;
+    height: 100px;
+    width: 450px;
+}
+.mail{
+    position: relative;
+    top: 8px;
+    font-size: 16px;
+    font-family: montserrat,sans-serif;
+    text-decoration: none;
+    color: #fff;
+    left: 0px;
+}
+.fb{
+    position: relative;
+    top: 9px;
+    font-size: 16px;
+    font-family: montserrat,sans-serif;
+    text-decoration: none;
+    color: #fff;
+
+}
+.ins{
+    position: relative;
+    top: 0px;
+    font-size: 16px;
+    font-family: montserrat,sans-serif;
+    text-decoration: none;
+    color: #fff;
+
+}
+.copyright{
+    position: relative;
+    top: 10px;
+    padding-left: 14px;
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+}
+.connectwithwe{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: futura,sans-serif;
+
+}
+.contactwithme{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: futura,sans-serif;
+}
