@@ -124,10 +124,6 @@
     width: 300px;
     height: 45.63px;
     }
-    /* .logo{
-    width: 100%;
-    height: 100%;
-    } */
     /* mnu overlay */
     .menu-overlay{
     position: fixed;
@@ -156,8 +152,15 @@
     }
     .menu-checkbox:checked ~ .menu-drawer{
         transform: translateX(0);
-        /* margin-left: 250px; */
+    }
+    .menu-checkbox:checked ~ .body{
+        display: block;
+        position: relative;
+        transform: translateX(200px);
     }       
+    .body{
+        /* transform: translateX(200px); */
+    }
     /* anh */
     .gallerycontainerhome{
         display: flex;
