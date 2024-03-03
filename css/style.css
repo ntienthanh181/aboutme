@@ -210,7 +210,7 @@ body{
     left: 0;
     top: 0;
     display: flex;
-    transition: 2s;
+    transition: 1.5s;
 }
 .slider .list img{
     position: relative;
