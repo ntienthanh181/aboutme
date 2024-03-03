@@ -156,7 +156,7 @@
     }
     .menu-checkbox:checked ~ .menu-drawer{
         transform: translateX(0);
-    }
+    }    
     /* anh */
     .gallerycontainerhome{
         display: flex;
@@ -195,7 +195,7 @@
         font-size: 18px;
         font-family: futura;
         display: inline-block;
-        padding: 8px 32px 8px 32px;
+        padding: 10px 32px;
         letter-spacing: 0.9px;
         width: 200px;
         left: 0;
@@ -364,7 +364,7 @@
     font-size: 18px;
     font-family: futura;
     display: inline-block;
-    padding: 8px 32px 8px 32px;
+    padding: 10px 32px;
     letter-spacing: 0.9px;
     width: 200px;
     left: 0;
@@ -377,7 +377,7 @@
     font-size: 18px;
     font-family: futura;
     display: inline-block;
-    padding: 8px 32px 8px 32px;
+    padding: 10px 32px;
     letter-spacing: 0.9px;
     width: 200px;
     left: 0;
