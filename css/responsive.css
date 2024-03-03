@@ -156,7 +156,8 @@
     }
     .menu-checkbox:checked ~ .menu-drawer{
         transform: translateX(0);
-    }    
+        /* margin-left: 250px; */
+    }       
     /* anh */
     .gallerycontainerhome{
         display: flex;
@@ -185,7 +186,7 @@
     /* ulli  */
     .menutab{
         position: absolute;
-        top: 58px;
+        top: 45px;
         left: 0;
     }
     .item.itemnonactive , .item.itemactive {
@@ -214,7 +215,7 @@
         
     }
     .close__menu{
-        width: 22px;
+        width: 16px;
         color: #878787;
     }
     .menu-drawer{
@@ -318,7 +319,7 @@
     flex-direction: column;
     position: absolute;
     padding: 2px 7px;
-    top: 230px;
+    top: 217px;
     left: 0;
     }
     /* menuresponsive */
@@ -388,7 +389,7 @@
     width: 60%;
     margin: auto;
     position: absolute;
-    top: 200px;
+    top: 187px;
     left: 30px;
     }
     .slidercover{
