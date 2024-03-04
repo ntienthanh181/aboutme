@@ -3,3 +3,6 @@
         left: 3px;
     }
 }
+::-webkit-scrollbar {
+    display: none;
+}

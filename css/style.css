@@ -36,6 +36,29 @@ body{
     background: rgb(0, 0, 0);
     color: #fff;
     overflow-x: hidden;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.open::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.open {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
 }
 .open{
     padding: 10px;
