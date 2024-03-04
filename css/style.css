@@ -44,16 +44,21 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: open 5s;
+    animation: open 3s;
     top: 0;
+}
+.chualogo{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .logoenter{
     vertical-align: middle;
-    height: auto;
     max-width: 100%;
+    width: 40%;
     border-radius: 0%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 @keyframes open{
     0%{ opacity: 0;}
