@@ -241,3 +241,8 @@ body{
     font-size: 20px;
     font-family: futura,sans-serif;
 }
+@media (max-width: 991.8px) {
+    .mail{
+        top: -10px;
+    }
+}

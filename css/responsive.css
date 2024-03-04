@@ -228,26 +228,29 @@
         height: 100%;
         padding: 7px 9px;
     }
-/* footer  */
-.footercontainer{
-    position: relative;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    width: 100%;
-    max-width: 100%;
-}
-.box2 , .box3 , .box1{
-    flex-direction: column;
-    display: flex;
-    width: 450px;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-}
-.copyright{
-    padding-left: 0;
-}
+    /* footer  */
+    .footercontainer{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .box2 , .box3 , .box1{
+        flex-direction: column;
+        display: flex;
+        width: 450px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright{
+        padding-left: 0;
+    }
+    .mail{
+        top: unset;
+    }
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width:991.8px){
@@ -278,9 +281,6 @@
         color: #fff;
         left: 1.2px;
     
-    }
-    .mail{
-        top: 5px;
     }
     /* menuresponsive */
     .menuresponsive{
@@ -355,8 +355,6 @@
         width: 100%;
         height: 30px;
         max-height: 100%;
-
-
     }
     .menutabcoverout{
         height: 100%;
@@ -481,9 +479,6 @@
         color: #fff;
         left: 1.2px;
     
-    }
-    .mail{
-        top: 5px;
     }
     .mail , .fb , .ins {
         font-size: 14px;
