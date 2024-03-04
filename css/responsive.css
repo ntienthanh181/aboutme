@@ -257,6 +257,17 @@
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width:991.8px){
+    /* scroll */
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .body::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    }
     .menutab2 , .hr{
         display: none;
     }
