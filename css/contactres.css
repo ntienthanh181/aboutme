@@ -136,6 +136,9 @@
     .mail{
         top: -8px;
     }
+    .copyright{
+        margin-top: 5px
+    }
 }
 /* Tablet */
 @media (min-width: 795px) and (max-width:991.8px){
@@ -165,4 +168,5 @@
         margin-top: 85%;
         position: relative;
     }
+
 }
