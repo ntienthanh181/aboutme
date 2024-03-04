@@ -6,6 +6,14 @@ body{
 ::-webkit-scrollbar {
     display: none;
 }
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    scrollbar-color: dark;
+    color: dark;
+    background-color: dark;
+}
 .gallerycontainer{
     display: flex;
     flex-direction: column;
