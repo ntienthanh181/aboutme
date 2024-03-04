@@ -37,6 +37,7 @@ body{
     color: #fff;
     overflow-x: hidden;
     scrollbar-width: none;
+    scrollbar-color: dark;
 }
 .body{
     width: 100%;

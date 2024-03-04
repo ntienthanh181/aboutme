@@ -1,5 +1,5 @@
 body{
-    scrollbar-width: none;
+    scrollbar-color: dark;
 }
 ::-webkit-scrollbar {
     display: none;

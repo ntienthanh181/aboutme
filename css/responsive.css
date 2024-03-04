@@ -1,5 +1,6 @@
 body{
     scrollbar-width: none;
+    scrollbar-color: dark;
 }
 /* PC */
 @media (min-width: 1220px){
