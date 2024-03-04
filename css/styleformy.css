@@ -155,17 +155,9 @@ body{
 
 
 /* footer */
-.gallerycontainer{
-    padding-bottom: 200px;
-}
-.body{
-    min-height: 100%;
-}
+
 .footer{
     margin-top: auto;
-    height: 200px;
-    position: relative;
-    bottom: 0;
 }
 .footercontainer{
     display: flex;
@@ -240,9 +232,4 @@ body{
     letter-spacing: 1px;
     font-size: 20px;
     font-family: futura,sans-serif;
-}
-@media (max-width: 991.8px) {
-    .mail{
-        top: -10px;
-    }
 }

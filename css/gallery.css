@@ -44,7 +44,9 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
+    }
+    .mail{
+        top: -5px;
     }
 }
 @media (max-width: 991.8px){

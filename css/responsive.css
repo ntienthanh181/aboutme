@@ -248,9 +248,6 @@
     .copyright{
         padding-left: 0;
     }
-    .mail{
-        top: unset;
-    }
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width:991.8px){
