@@ -9,6 +9,9 @@
     .contact-tab__box1--clienthehe{
         display: none;
     }
+    .menucover{
+        display: none;
+    }
 }
 /* heigh ,fix footer */
 
@@ -34,6 +37,9 @@
         display: none;
     }
     .anhhome , .gallerycontainerhome{
+        display: none;
+    }
+    .menucover{
         display: none;
     }
     .logocontainer {
@@ -254,6 +260,9 @@
     .menutab2 , .hr{
         display: none;
     }
+    .menucover{
+        display: none;
+    }
     /* footer */
     .connectwithwe , .contactwithme{
         top: 0px;
@@ -281,12 +290,12 @@
     }
     /* menuresponsive */
     .menuresponsive{
-    position: absolute;
-    color: #fff;
-    top: 30px;
-    left: 20px;
-    width: 35px;
-    height: 35px;
+        position: absolute;
+        color: #fff;
+        top: 30px;
+        left: 20px;
+        width: 35px;
+        height: 35px;
     }
 }
 
@@ -324,16 +333,20 @@
     }
     /* menuresponsive */
     .menuresponsive{
-    position: absolute;
+    /* position: absolute; */
     color: #fff;
-    top: 29px;
-    right: 15px;
+    /* top: 29px;
+    right: 15px; */
     width: 25px;
     height: 25px;
+    margin-right: 5px;
     }
     .container{
         height: fit-content;
         padding:  10px;
+    }
+    .container{
+        display: none;
     }
     nav {
         box-sizing: unset;
@@ -498,7 +511,20 @@
         min-height: min-content;
         margin-top: auto;
     }
-
+    /* home mneu */
+    .logomenu{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .menucover{
+        width: 60%;
+    }
+    .mobiletabletheader{
+        padding: 20px 10px 15px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     
 }
