@@ -260,6 +260,26 @@ body{
     .copyright{
         padding-left: 0;
     }
+    /* bo sung menu mobile */
+    .contact-tab__box1--iconsmenum{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 2%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .iconscoverm{
+        padding: 0 5px 0 5px;
+    }
+    .contact-tab__box1--icons--items1 .fa-brands , .contact-tab__box1--icons--items .fa-regular , .contact-tab__box1--icons--items2 .fa-brands , .contact-tab__box1--icons--items , .contact-tab__box1--icons--items .fa-brands {
+        font-size: 20px;
+    }
+    .fa-regular {
+        font-size: 25px;
+        color: white;
+        transition: 0.3s;
+    }
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width:991.8px){
@@ -313,6 +333,9 @@ body{
         left: 20px;
         width: 35px;
         height: 35px;
+    }
+    .iconscoverm{
+
     }
 }
 
