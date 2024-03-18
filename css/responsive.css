@@ -264,8 +264,7 @@ body{
     .contact-tab__box1--iconsmenum{
         display: flex;
         align-items: flex-end;
-        justify-content: space-between;
-        padding-bottom: 20%;
+        padding-bottom: 5%;
         margin-right: auto;
         margin-left: auto;
     }
