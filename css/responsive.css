@@ -265,7 +265,7 @@ body{
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        padding-bottom: 2%;
+        padding-bottom: 20%;
         margin-right: auto;
         margin-left: auto;
     }
